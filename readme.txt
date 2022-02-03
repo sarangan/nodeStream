@@ -1,0 +1,3 @@
+Hello World
+Be aware that the syntax for this property differs from the information provided in the Amazon S3 User Guide. The AccessControl property is case-sensitive and must be one of the following values: Private, PublicRead, PublicReadWrite, AuthenticatedRead, LogDeliveryWrite, BucketOwnerRead, BucketOwnerFullControl, or AwsExecRead.
+A name for the bucket. If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the bucket name. The bucket name must contain only lowercase letters, numbers, periods (.), and dashes (-) and must follow Amazon S3 bucket restrictions and limitations. For more information, see Rules for naming Amazon S3 buckets in the Amazon S3 User Guide.
